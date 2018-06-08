@@ -276,6 +276,7 @@ extension HeroContext {
     }
     containerView.addSubview(snapshot)
     snapshotViews[view] = snapshot
+    snapshot.saveImage()
     return snapshot
   }
 

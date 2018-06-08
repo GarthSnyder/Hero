@@ -160,6 +160,7 @@
 		B1D816EC1EF5A720007B9776 /* HeroTransition+Animate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D816EA1EF5A720007B9776 /* HeroTransition+Animate.swift */; };
 		B1D834041F02E7C0009E1E36 /* ConditionalPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D834031F02E7C0009E1E36 /* ConditionalPreprocessor.swift */; };
 		B1D834051F02E7C0009E1E36 /* ConditionalPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D834031F02E7C0009E1E36 /* ConditionalPreprocessor.swift */; };
+		BB98CA3A20C9FE3A00740866 /* SaveImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB98CA3920C9FE3A00740866 /* SaveImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -305,6 +306,7 @@
 		B1D816E71EF5A6FE007B9776 /* HeroTransition+Complete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HeroTransition+Complete.swift"; sourceTree = "<group>"; };
 		B1D816EA1EF5A720007B9776 /* HeroTransition+Animate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HeroTransition+Animate.swift"; sourceTree = "<group>"; };
 		B1D834031F02E7C0009E1E36 /* ConditionalPreprocessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConditionalPreprocessor.swift; sourceTree = "<group>"; };
+		BB98CA3920C9FE3A00740866 /* SaveImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveImage.swift; sourceTree = "<group>"; };
 		C377744CBFF1E24426E80F55 /* Pods-HeroExamples.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeroExamples.release.xcconfig"; path = "Pods/Target Support Files/Pods-HeroExamples/Pods-HeroExamples.release.xcconfig"; sourceTree = "<group>"; };
 		EEE340F89FF0A49DD23A5A6E /* Pods_HeroExamples.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeroExamples.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD2306FDA4E15ADA91EFED44 /* Pods_HeroTvOSExamples.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeroTvOSExamples.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -628,6 +630,7 @@
 				B17D888B1EF5A5500048D3E8 /* HeroTransition+UIViewControllerTransitioningDelegate.swift */,
 				A37D7B511E2C0CBD00AC1959 /* HeroTransition.swift */,
 				B16B75301EF45A110018DBEF /* HeroTransitionState.swift */,
+				BB98CA3920C9FE3A00740866 /* SaveImage.swift */,
 			);
 			path = Transition;
 			sourceTree = "<group>";
@@ -803,13 +806,13 @@
 					};
 					A306D3B11E1C7A2E00B6C23A = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 4VSEW78TKT;
+						DevelopmentTeam = 5MC4PNHTX6;
 						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					A33E60A01DE761C90065CBD8 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 4VSEW78TKT;
+						DevelopmentTeam = 5MC4PNHTX6;
 						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
@@ -1061,6 +1064,7 @@
 				A37D7B641E2C0CD100AC1959 /* HeroDebugView.swift in Sources */,
 				B16B75341EF461090018DBEF /* HeroProgressRunner.swift in Sources */,
 				A37D7B601E2C0CBD00AC1959 /* HeroTypes.swift in Sources */,
+				BB98CA3A20C9FE3A00740866 /* SaveImage.swift in Sources */,
 				B1D816E81EF5A6FE007B9776 /* HeroTransition+Complete.swift in Sources */,
 				AF6D934A1E65168D00FCD55E /* HeroStringConvertible.swift in Sources */,
 				A37D7B441E2C0C7E00AC1959 /* SourcePreprocessor.swift in Sources */,
@@ -1283,7 +1287,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 4VSEW78TKT;
+				DEVELOPMENT_TEAM = 5MC4PNHTX6;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -1310,7 +1314,7 @@
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 4VSEW78TKT;
+				DEVELOPMENT_TEAM = 5MC4PNHTX6;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -1448,7 +1452,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 4VSEW78TKT;
+				DEVELOPMENT_TEAM = 5MC4PNHTX6;
 				INFOPLIST_FILE = "$(SRCROOT)/Examples/Resources/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1466,7 +1470,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 4VSEW78TKT;
+				DEVELOPMENT_TEAM = 5MC4PNHTX6;
 				INFOPLIST_FILE = "$(SRCROOT)/Examples/Resources/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
